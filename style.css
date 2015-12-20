@@ -1,3 +1,31 @@
 html {
     background: url(images/8.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     }
+h1{
+   font-size: 30px;
+   color: burlywood;
+   font-family: Italyc;
+   border-width: default;
+   border-left-width: 15px;
+   order-right-width: 15px;
+#   background-color: rgba(0, 100, 100, 0.2) ;
+
+}
+h6{
+    color: darkslategray;
+    position: relative;
+    left: 1000px;
+}
+footer{
+    height: 30px;
+    background: rgba(0, 100, 200, 0.2);
+
+       }
+
+div{
+
+}
