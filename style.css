@@ -1,31 +1,74 @@
 html {
-    background: url(images/8.jpg) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    background: url(images/8.jpg)  center fixed;
+
     }
 h1{
    font-size: 30px;
    color: burlywood;
-   font-family: Italyc;
+    font-style: italic;
    border-width: default;
    border-left-width: 15px;
-   order-right-width: 15px;
-#   background-color: rgba(0, 100, 100, 0.2) ;
+   border-right-width: 15px;
+   }
+h2{
+    color: black;
+    font-style: italic;
+    border-width: default;
+    border-left-width: 15px;
+    border-right-width: 15px;
 
 }
-h6{
-    color: darkslategray;
-    position: relative;
-    left: 1000px;
+article{
+    position: absolute;
+    left: 50%;
+    float:right;
+    margin: 70px ;
+    padding: 10px;
+    background-color: rgba(0, 100, 200, 0.2);
+    border-radius: 4px 4px 4px 4px;
 }
-footer{
-    height: 30px;
-    background: rgba(0, 100, 200, 0.2);
 
-       }
+nav {
+    display: block;
+   }
 
-div{
+ul {
+    list-style-type: none;
+    margin: 15px ;
+    padding: 0;
+    float: right;
+    overflow: hidden;
+    background-color: rgba(0, 100, 200, 0.2);
+    border-radius: 4px 4px 4px 4px;
 
 }
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: darkblue;
+    text-align: center;
+    font-style:normal;
+    padding: 14px 16px;
+    text-decoration: none ;
+    font-weight: 900;
+
+}
+
+li a:hover {
+    background-color: rgba(300, 200, 300, 0.3);
+}
+
+.footer  {
+    color: black;
+    position: absolute;
+    bottom: 0;
+
+    }
+
+
+
+
