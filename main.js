@@ -15,4 +15,12 @@ $(document).ready( function() {
         });
 
     });
+/**
+ * funny boxes
+ */
+$(document).ready( function() {
+    $('.boxes').on('click', function() {
 
+    });
+
+});
