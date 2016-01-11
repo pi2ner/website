@@ -19,8 +19,10 @@ $(document).ready( function() {
  * funny boxes
  */
 $(document).ready( function() {
-    $('.boxes').on('click', function() {
+          $('.boxes').on('click', function() {
+            var effect = ( 'mymove' );
+              $('.boxes').removeClass(effect);
+              $(this).addClass(effect);
 
-    });
-
+          });
 });
