@@ -40,10 +40,18 @@
     -webkit-animation: mymove 2s;
 }
 
+.mymove2 {
+    -webkit-animation: mymove 2s;
+}
+
 @-webkit-keyframes mymove {
     from {top: 0;}
     to {top: 200px;}
         }
+@-webkit-keyframes mymove2 {
+
+
+}
 
 
 
