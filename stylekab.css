@@ -1,19 +1,52 @@
 html {
-    background: #a2ffba  center fixed;
+    background: rgba(0, 0, 0, 0.7);  center fixed;
 }
 
 #loginaria {
-    position: absolute;
-    margin: 100px ;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
     padding: 100px;
     height: 150px;
     width: 25%;
-    background-color: rgba(0, 0, 100, 0.2);
+    background-color: rgba(0, 0, 0, 0.4);
     border-radius: 20px 20px 20px 20px;
+    }
+
+.reg {
+   display: inline-block;
+    margin-top: -30%;
+    margin-left: -15%;
+
 }
 
+.reg:focus  {
+    outline: none;
+            }
+
+.reg label {
+    width:150px;
+    margin-top: 3px;
+    float:left;
+    padding:3px;
+    }
+.reg input {
+    height:30px;
+    width: 350px;
+    padding:5px 8px;
+    border-radius: 4px 4px 4px 4px;
+}
+
+
 .button {
+    margin-left: 30%;
     text-align: center;
     font: bold 15px/150% Helvetica;
     padding: .5em 2em .55em;
-   }
+    border-radius: 4px 4px 4px 4px;
+       }
+li {
+    display: block;
+    margin:2px 0 20px 10px;
+}
+
